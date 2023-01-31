@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <a href="www.minecraftinformatica.nl/home"><img src="minecraftlogo.png" style="width:30px;height:30px;"> 
+    <a href="www.minecrafthtml.nl/home"><img src="minecraftlogo.png" style="width:60px;height:60px;"> 
         </a>
     </head>
     <style>
         body {
-  background-color: #554c4c;
+  background-color: #363232;
 }
         / style button /
       .btn {
@@ -16,8 +16,8 @@
           border: none; /* Remove borders */
           color: white; /* White text */
           display: inline-block;
-          padding: 12px 16px; /* Some padding */
-          font-size: 16px; /* Set a font size */
+          padding: 15px 20px; /* Some padding */
+          font-size: 25px; /* Set a font size */
           cursor: pointer; /* Mouse pointer on hover */
         }
         
@@ -41,7 +41,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
 }
 
@@ -56,9 +56,27 @@ li a:hover {
 
         <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#de game">de game</a></li>
+                <li><a href="#developers">developers</a></li>
+                <li><a href="#Demo game">Demo game</a></li>
+                <li><a href="#Wiki">Wiki</a></li>
+                <li><a href="#Easter egg">Easter egg</a></li>
                 <li><a href="#about">About</a></li>
-              </ul>
 
-  
+              </ul>
+              <script>
+                // When the user scrolls down 20px from the top of the document, slide down the navbar
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("btn").style.top = "0";
+                  } else {
+                    document.getElementById("btn").style.top = "-50px";
+                  }
+                }
+                </script>
+                
+  <p>Minecraft is een avonturen game met alls doel de enderdragon verslaan. </p>
+<br>
+<p>De enderdragon is wel heel erg sterk, dus er zijn allemaal functies en items die je daar mee kunnen helpen.</p>
