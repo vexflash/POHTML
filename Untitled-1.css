@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
         body {
   background-color: #363232;
@@ -41,3 +42,50 @@ li a {
 li a:hover {
   background-color: #086d3e;
 }
+=======
+ <style>
+        body {
+  background-color: #363232;
+}
+        / style button /
+      .btn {
+          background-color: #086d3e; /* Blue background */
+          border: none; /* Remove borders */
+          color: white; /* White text */
+          display: inline-block;
+          padding: 15px 20px; /* Some padding */
+          font-size: 25px; /* Set a font size */
+          cursor: pointer; /* Mouse pointer on hover */
+        }
+        
+        /* Darker background on mouse-over */
+        .btn:hover {
+          background-color:#086d3e;
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a2c078a;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #086d3e;
+}
+
+      </style>
+>>>>>>> 9e698b7ae91a5961daa00095c0a3ae59e34dd9fa
