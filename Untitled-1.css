@@ -84,6 +84,21 @@ li a {
 li a:hover {
   background-color: #086d3e;
 }
+.navbar {
+  overflow: hidden;
+  display: inline-block;
+  background-color: #555555;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+.navbar a:hover {
+  background: #086d3e;
+  color: black;
+}
    
 
