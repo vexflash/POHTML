@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
         body {
   background-color: #363232;
@@ -42,12 +42,10 @@ li a {
 li a:hover {
   background-color: #086d3e;
 }
-=======
- <style>
         body {
   background-color: #363232;
 }
-        / style button /
+       
       .btn {
           background-color: #086d3e; /* Blue background */
           border: none; /* Remove borders */
@@ -87,5 +85,5 @@ li a:hover {
   background-color: #086d3e;
 }
 
-      </style>
->>>>>>> 9e698b7ae91a5961daa00095c0a3ae59e34dd9fa
+   
+
