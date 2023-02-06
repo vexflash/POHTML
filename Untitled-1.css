@@ -85,15 +85,14 @@ li a:hover {
   background-color: #086d3e;
 }
 .navbar {
-  overflow: hidden;
+  background-color: #808080; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
   display: inline-block;
-  background-color: #555555;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  text-align: bottom;
+  padding: 15px 20px; /* Some padding */
+  font-size: 25px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
 }
 
 .navbar a:hover {
