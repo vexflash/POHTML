@@ -84,15 +84,23 @@ li a {
 li a:hover {
   background-color: #086d3e;
 }
+
 .navbar {
-  background-color: #808080; /* Blue background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  display: inline-block;
-  text-align: bottom;
-  padding: 15px 20px; /* Some padding */
-  font-size: 25px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+  overflow: hidden;
+  background-color: #0a2c078a;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .navbar a:hover {
