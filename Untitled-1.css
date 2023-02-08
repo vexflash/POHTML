@@ -5,16 +5,16 @@
 }
 
       .btn {
-          background-color: #086d3e; /* Blue background */
-          border: none; /* Remove borders */
-          color: white; /* White text */
+          background-color: #086d3e; 
+          border: none; 
+          color: white; 
           display: inline-block;
-          padding: 15px 20px; /* Some padding */
-          font-size: 25px; /* Set a font size */
-          cursor: pointer; /* Mouse pointer on hover */
+          padding: 15px 20px; 
+          font-size: 25px; 
+          cursor: pointer; 
         }
         
-        /* Darker background on mouse-over */
+       
         .btn:hover {
           background-color:#086d3e;
         }
@@ -38,7 +38,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #086d3e;
 }
@@ -47,16 +47,16 @@ li a:hover {
 }
        
       .btn {
-          background-color: #086d3e; /* Blue background */
-          border: none; /* Remove borders */
-          color: white; /* White text */
+          background-color: #086d3e; 
+          border: none; 
+          color: white; 
           display: inline-block;
-          padding: 15px 20px; /* Some padding */
-          font-size: 25px; /* Set a font size */
-          cursor: pointer; /* Mouse pointer on hover */
+          padding: 15px 20px; 
+          font-size: 25px; 
+          cursor: pointer; 
         }
         
-        /* Darker background on mouse-over */
+      
         .btn:hover {
           background-color:#086d3e;
         }
@@ -80,7 +80,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
   background-color: #086d3e;
 }
@@ -186,4 +186,6 @@ div {
 table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
+body {
+color: white;
 }
