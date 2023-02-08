@@ -191,3 +191,19 @@ table, th, td {
 body {
 color: white;
 }
+
+#logo {
+  scale: 100%;
+  position: relative;
+  animation-name: logo;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  0% {scale: 1.4;}
+  25% {scale: 0.8;}
+  50% {scale: 1.4;}
+  75% {scale: 0.8;}
+  100% {scale: 1.4;}
+}
