@@ -30,7 +30,6 @@
         li {
           float: left;
         }
-<<<<<<< HEAD
         
         li a {
           display: block;
@@ -187,7 +186,7 @@
         p{
           font-size: large;
         }
-=======
+
         ul {
   list-style-type: none;
   margin: 0;
@@ -347,4 +346,4 @@ p {
   font-weight: normal;
   font-style: normal;
 }
->>>>>>> 1b4d3c0d058e4c6820961c4f42f3d00d8a16060a
+
