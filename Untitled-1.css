@@ -213,3 +213,9 @@ font-size: 40px;
 p{
   font-size: large;
 }
+
+p {
+  font-family: 'MinecraftiaRegular';
+  font-weight: normal;
+  font-style: normal;
+}
