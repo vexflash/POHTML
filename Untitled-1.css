@@ -207,3 +207,9 @@ color: white;
   75% {scale: 0.8;}
   100% {scale: 1.4;}
 }
+h1{
+font-size: 40px;
+}
+p{
+  font-size: large;
+}
