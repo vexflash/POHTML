@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+ <!--taal voor in de website--> 
 <html lang="nl">
 <head>
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/minecraftia" type="text/css"/>
@@ -9,9 +10,24 @@
     <style>
       @import "Untitled-1.css";
     </style>
+    <script>
+      import "JavaScript.js" 
+      </script>
 <body>
-
-  <ul>
+        <!--de hele navigatie met alle buttons-->
+        <script>
+          // wanneer je naar beneden scrollt, scrollt de navigatie mee //
+          window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("navbar2").style.top = "0";
+            } else {
+              document.getElementById("navbar2").style.top = "-50px";
+            }
+          }
+          </script>
+  <ul id = "navbar2">
     <li><a href="pagina8.html"><img src="img/minecraftlogo.png" style="width:35px;height:35px;" alt="Minecraft Logo"></a></li>
     <li><a href="index.html">Home</a></li>
     <li><a href="pagina2.html">De Game</a></li>
@@ -20,7 +36,7 @@
     <li><a href="pagina5.html">Demo game</a></li>
     <li><a href="pagina6.html">Wiki</a></li>
     <li><a href="pagina7.html">About</a></li>
-
+ <!--achtergrond plaatje-->
    <style>
     body {
       background-image: url(img/background.webp);
